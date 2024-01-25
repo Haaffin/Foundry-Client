@@ -7,6 +7,7 @@ const createWindow = () => {
     win.loadFile('index.html')
     win.removeMenu()
     win.show()
+    icon: __dirname + '/public/icons/icon.ico'
 }
 
 app.whenReady().then(() => {

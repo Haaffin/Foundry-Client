@@ -24,5 +24,28 @@
   },
   "dependencies": {
     "electron-squirrel-startup": "^1.0.0"
+  },
+
+  "build": {
+    "appId": "appListBB",
+    "productName": "BingBong App List",
+    "copyright": "N/A",
+    "mac": {
+      "icon": "./public/icons/mac/icon.icns",
+      "category": "public.app-category.utilities"
+    },
+    "win": {
+      "icon": "./public/icons/icon.png"
+    },
+    "files": [
+      "./build/**/*",
+      "./dist/**/*",
+      "./node_modules/**/*",
+      "./public/**/*",
+      "*.js"
+    ],
+    "directories": {
+      "buildResources": "public"
+    }
   }
 }
