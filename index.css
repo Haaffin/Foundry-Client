@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500&family=Roboto&display=swap');
+@import url('https://db.onlinewebfonts.com/c/c5dbc56f321f765543511ecf3739935b?family=Bookmania');
 root{
     --primary: #2f3241;
     --secondary: #74b1be;
@@ -7,8 +7,7 @@ root{
 body{
     background-color: #2f3241;
     color: white;
-    font-family: 'Raleway', sans-serif;
-    font-family: 'Roboto', sans-serif;
+    font-family: "Bookmania";
 }
 
 a{
